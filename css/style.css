@@ -1,12 +1,11 @@
-.inicio h2 {
+.inicio .full-bg-img h2 {
     color: white;
 }
 
-.inicio h4 {
+.inicio .full-bg-img h4 {
     color: #ffffff;
 }
 
-.inicio hr {
+.inicio .full-bg-img  hr {
     border-top: 1px solid white;
-!important;
 }
