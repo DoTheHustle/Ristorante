@@ -1,11 +1,20 @@
+.navbar:not(.top-nav-collapse) {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
 .inicio .full-bg-img h2 {
     color: white;
 }
 
 .inicio .full-bg-img h4 {
-    color: #ffffff;
+    color: #FFF;
 }
 
-.inicio .full-bg-img  hr {
+.inicio .full-bg-img hr {
     border-top: 1px solid white;
 }
