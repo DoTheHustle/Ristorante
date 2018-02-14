@@ -1,417 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Opinion</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="https://mdbootstrap.com/previews/templates/landing-page/css/mdb.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="img/ristorante.png" alt="Ristorante">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/imgandroid-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 
-            <ul class="navbar-nav mr-auto smooth-scroll">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about" data-offset="100">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#intro" data-offset="100">Intro</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#specials" data-offset="100">Specials</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#menu" data-offset="100">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#testimonials" data-offset="100">Opinions</a>
-                </li>
-            </ul>
+        <title>Opiniones de Clientes - Ristorante</title>
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://mdbootstrap.com/previews/templates/landing-page/css/mdb.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="opinion restaurant-lp">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/ristorante.png" alt="Ristorante">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="fab fa-facebook light-green-text"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="fab fa-twitter light-green-text"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="fab fa-instagram light-green-text"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!--Card-->
-<div class="cartas">
-    <div class="row">
-        <div class="col-4 mx-auto">
-            <div class="card testimonial-card  ">
-
-                <!--Bacground color-->
-                <div class="card-up indigo lighten-1">
-                </div>
-
-                <!--Avatar-->
-                <div class="avatar"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
-                                         class="rounded-circle">
-                </div>
-
-                <div class="card-body">
-                    <!--Name-->
-                    <h4 class="card-title">Anna Doe</h4>
-                    <hr>
-                    <!--Quotation-->
-                    <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
-                        adipisci
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-4 mx-auto">
-            <div class="card testimonial-card  ">
-
-                <!--Bacground color-->
-                <div class="card-up indigo lighten-1">
-                </div>
-
-                <!--Avatar-->
-                <div class="avatar"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
-                                         class="rounded-circle">
-                </div>
-
-                <div class="card-body">
-                    <!--Name-->
-                    <h4 class="card-title">Anna Doe</h4>
-                    <hr>
-                    <!--Quotation-->
-                    <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
-                        adipisci
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-4 mx-auto">
-            <div class="card testimonial-card  ">
-
-                <!--Bacground color-->
-                <div class="card-up indigo lighten-1">
-                </div>
-
-                <!--Avatar-->
-                <div class="avatar"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
-                                         class="rounded-circle">
-                </div>
-
-                <div class="card-body">
-                    <!--Name-->
-                    <h4 class="card-title">Anna Doe</h4>
-                    <hr>
-                    <!--Quotation-->
-                    <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
-                        adipisci
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-<!--/.Card-->
-
-<div class="row">
-    <div class="col-8 mx-auto">
-        <section class="section">
-
-            <!--Section heading-->
-            <h2 class="section-heading h1 pt-4">Contact us</h2>
-            <!--Section description-->
-            <p class="section-description">Do you have any questions? Please do not hesitate to contact us directly. Our
-                team will come back to you within matter of hours to help you.</p>
-
-            <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-8 col-xl-9">
-                    <form id="contact-form" name="contact-form">
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form">
-                                    <div class="md-form">
-                                        <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">Your name</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form">
-                                    <div class="md-form">
-                                        <input type="text" id="email" name="email" class="form-control">
-                                        <label for="email" class="">Your email</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-12">
-
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" class="md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                    </form>
-
-                    <div class="center-on-small-only">
-                        <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" >Send</a>
-                    </div>
-                    <div class="status" id="status"></div>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-4 col-xl-3">
-                    <ul class="contact-icons">
-                        <li><i class="fa fa-map-marker fa-2x"></i>
-                            <p>San Francisco, CA 94126, USA</p>
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Principal</a>
                         </li>
-
-                        <li><i class="fa fa-phone fa-2x"></i>
-                            <p>+ 01 234 567 89</p>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carta.html" data-offset="100">Carta</a>
                         </li>
-
-                        <li><i class="fa fa-envelope fa-2x"></i>
-                            <p>contact@mdbootstrap.com</p>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reserva.html" data-offset="100">Reserva</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="opinion.html" data-offset="100">Opinion
+                                <span class="sr-only">(actual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacta.html" data-offset="100">Contacta</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fab fa-facebook light-green-text"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fab fa-twitter light-green-text"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fab fa-instagram light-green-text"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
-
             </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">ENHORABUENA!</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+        </nav>
+
+        <!--Card-->
+        <div class="cartas container mt-5 py-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mx-auto mb-2">
+                    <div class="card testimonial-card">
+                        <!--Bacground color-->
+                        <div class="card-up green lighten-1">
                         </div>
-                        <div class="modal-body">
-                            Has ayudado a mejorar el sitio con tu aportación
+                        <!--Avatar-->
+                        <div class="avatar"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                 class="rounded-circle">
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="card-body">
+                            <!--Name-->
+                            <h4 class="card-title">Anna Doe</h4>
+                            <hr>
+                            <!--Quotation-->
+                            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Eos,
+                                adipisci
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mx-auto mb-2">
+                    <div class="card testimonial-card">
+                        <div class="card-up green lighten-1">
+                        </div>
+                        <div class="avatar"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                 class="rounded-circle">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Anna Doe</h4>
+                            <hr>
+                            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Eos,
+                                adipisci
+                            </p>
+                        </div>
+                        <div class="card-data">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span><i class="fas fa-star-half" style="margin-right: -11px;"></i>
+                                <i class="far fa-star-half fa-flip-horizontal" style="margin-left: -11px;"></i>
+                            </span>
+                            <span class="far fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mx-auto mb-2">
+                    <div class="card testimonial-card">
+                        <div class="card-up green lighten-1">
+                        </div>
+                        <div class="avatar"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                 class="rounded-circle">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Anna Doe</h4>
+                            <hr>
+                            <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Eos,
+                                adipisci
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-        </section>
-        <!--Section: Contact v.2-->
-    </div>
-</div>
-<footer class="page-footer footer-tiles center-on-small-only pt-4">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12">
+                    <section class="section">
+                        <h2 class="section-heading h1 pt-4">Leave you review</h2>
+                        <p class="section-description">Did you like your stance in our restaurant? Do you think we have
+                            to change anythin? Do not be afraid to leave your review.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <form id="contact-form" name="contact-form">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="md-form">
+                                                <div class="md-form">
+                                                    <input type="text" id="name" name="name" class="form-control">
+                                                    <label for="name" class="">Your name</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="md-form">
+                                                <div class="md-form">
+                                                    <input type="text" id="email" name="email" class="form-control">
+                                                    <label for="email" class="">Your email</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="md-form">
+                                            <textarea type="text" id="message" name="message"
+                                                      class="md-textarea"></textarea>
+                                                <label for="message">Your review</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
 
+                                <div class="center-on-small-only">
+                                    <a class="btn btn-primary btn-block" data-toggle="modal"
+                                       data-target="#exampleModal">Send</a>
+                                </div>
+                                <div class="status" id="status"></div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                             aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">ENHORABUENA!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Has ayudado a mejorar el sitio con tu aportación
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+                                        </button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-    <div class="container mb-4">
-
-
-        <div class="row">
-
-
-            <div class="col-lg-4 pt-1 pb-3 wow fadeIn" data-wow-delay="0.3s">
-
-                <h5 class="title mb-1">
-                    <strong>ABOUT RESTAURANT</strong>
-                </h5>
-
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                    deleniti
-                    atque corrupti.</p>
-
-                <p class="mb-1-half"> Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
-                    molestias excepturi sint.</p>
-
-
-                <div class="footer-socials">
-
-
-                    <a type="button" class="btn-floating green">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating green">
-                        <i class="fab fa-dribbble"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating green">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating green">
-                        <i class="fab fa-google-plus"></i>
-                    </a>
-
-
+                    </section>
                 </div>
             </div>
-
-
-            <hr class="w-100 clearfix d-md-none">
-
-
-            <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-
-                <h5 class="title">
-                    <strong>Search something</strong>
-                </h5>
-
-                <ul class="footer-search">
-                    <li>
-                        <form class="search-form" role="search">
-                            <div class="form-group waves-light waves-effect waves-light">
-                                <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                        </form>
-                    </li>
-                </ul>
-
-
-                <p>
-                    <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                <p>
-                    <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                <p>
-                    <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                <p>
-                    <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-
-            </div>
-
-
-            <hr class="w-100 clearfix d-md-none">
-
-
-            <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn text-center" data-wow-delay="0.3s">
-
-
-                <h5 class="title mb-2">
-                    <strong>Opening hours</strong>
-                </h5>
-
-
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <td>Mon - Thu:</td>
-                        <td>8am - 9pm</td>
-                    </tr>
-                    <tr>
-                        <td>Fri - Sat:</td>
-                        <td>8am - 1am</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday:</td>
-                        <td>9am - 10pm</td>
-                    </tr>
-                    </tbody>
-                </table>
-
-            </div>
-
-
         </div>
 
+        <footer class="page-footer footer-tiles center-on-small-only pt-4">
+            <div class="container mb-4">
+                <div class="row">
+                    <div class="col-lg-4 pt-1 pb-3 wow fadeIn" data-wow-delay="0.3s">
+                        <h5 class="title mb-1">
+                            <strong>ABOUT RESTAURANT</strong>
+                        </h5>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum
+                            deleniti
+                            atque corrupti.</p>
+                        <p class="mb-1-half"> Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et
+                            quas
+                            molestias excepturi sint.</p>
+                        <div class="footer-socials">
+                            <a type="button" class="btn-floating green">
+                                <i class="fab fa-facebook"></i>
+                            </a>
 
-    </div>
+                            <a type="button" class="btn-floating green">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+
+                            <a type="button" class="btn-floating green">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+
+                            <a type="button" class="btn-floating green">
+                                <i class="fab fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none">
+                    <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                        <h5 class="title">
+                            <strong>Search something</strong>
+                        </h5>
+                        <ul class="footer-search">
+                            <li>
+                                <form class="search-form" role="search">
+                                    <div class="form-group waves-light waves-effect waves-light">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                        <p>
+                            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p>
+                            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none">
+                    <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn text-center" data-wow-delay="0.3s">
+                        <h5 class="title mb-2">
+                            <strong>Opening hours</strong>
+                        </h5>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Mon - Thu:</td>
+                                    <td>8am - 9pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Fri - Sat:</td>
+                                    <td>8am - 1am</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday:</td>
+                                    <td>9am - 10pm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright wow fadeIn" data-wow-delay="0.3s">
+                <div class="container-fluid">
+                    © 2017 Copyright:
+                    <a href="https://www.MDBootstrap.com" rel="nofollow"> MDBootstrap.com </a>
+                </div>
+            </div>
+        </footer>
 
 
-    <div class="footer-copyright wow fadeIn" data-wow-delay="0.3s">
-        <div class="container-fluid">
-            © 2017 Copyright:
-            <a href="https://www.MDBootstrap.com" rel="nofollow"> MDBootstrap.com </a>
-        </div>
-    </div>
-
-
-</footer>
-<script src="http://code.jquery.com/jquery-3.3.1.min.js"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="https://mdbootstrap.com/previews/templates/landing-page/js/mdb.min.js"></script>
-<script src="js/custom.js"></script>
-
-</body>
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="https://mdbootstrap.com/previews/templates/landing-page/js/mdb.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
 </html>
