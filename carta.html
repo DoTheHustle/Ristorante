@@ -1,446 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Carta</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/imgandroid-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="https://mdbootstrap.com/previews/templates/landing-page/css/mdb.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="carta restaurant-lp">
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="img/ristorante.png" alt="Ristorante">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto ">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Principal
+    <head>
+        <meta charset="UTF-8">
+        <title>Carta</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/imgandroid-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon/manifest.json">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://mdbootstrap.com/previews/templates/landing-page/css/mdb.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="carta restaurant-lp">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/ristorante.png" alt="Ristorante">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Principal
 
-                    </a>
-                </li>
-                <li class="nav-item active">
-                    <div class="dropdown">
-                        <a class="nav-link dropdown-toggle" type="button" id="platos" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">
-                            Platos
-                        </a>
-                        <div class="dropdown-menu dropdown-success" aria-labelledby="platos">
-                            <a class="dropdown-item" href="carta.html">Carta</a>
-                            <a class="dropdown-item" href="menu.html">Menú Especial</a>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" type="button" id="platos" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    Platos
+                                </a>
+                                <div class="dropdown-menu dropdown-success" aria-labelledby="platos">
+                                    <a class="dropdown-item" href="carta.html">Carta</a>
+                                    <a class="dropdown-item" href="menu.html">Menú Especial</a>
+                                </div>
+                            </div>
+                            <span class="sr-only">(actual)</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reserva.html" data-offset="100">Reserva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="opinion.html" data-offset="100">Opinion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacta.html" data-offset="100">Contacta</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fab fa-facebook light-green-text"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fab fa-twitter light-green-text"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fab fa-instagram light-green-text"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Entrantes</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section id="two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Pastas</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section id="three">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Pizzas</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section id="four">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Postres</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
+                                                                         src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                         alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section id="five">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Vinos</h1>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <div class="media align-self-center">
+                            <img class="align-self-center mr-3" src="http://via.placeholder.com/110x120" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Center-aligned media</h5>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    </p>
+
+                            </div>
                         </div>
                     </div>
-                    <span class="sr-only">(actual)</span>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="reserva.html" data-offset="100">Reserva</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="opinion.html" data-offset="100">Opinion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacta.html" data-offset="100">Contacta</a>
-                </li>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <div class="media align-self-center">
+                            <img class="align-self-center mr-3" src="http://via.placeholder.com/110x120" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Center-aligned media</h5>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <div class="media align-self-center">
+                            <img class="align-self-center mr-3" src="http://via.placeholder.com/110x120" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Center-aligned media</h5>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <div class="media align-self-center">
+                            <img class="align-self-center mr-3" src="http://via.placeholder.com/110x120" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <h5 class="mt-0">Center-aligned media</h5>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="six">
+            <div class="container">
+                <div class="row">
+                    <h1>Bebidas</h1>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
+                                                                    src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                    alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
+                                                                    src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                    alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
+                                                                    src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                    alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
+                                                                    src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                    alt=""></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
+                                                                    src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                    alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
+                                                                    src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                    alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
+                                                                    src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                    alt=""></div>
+                    <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
+                                                                    src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
+                                                                    alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scrollspy -->
+        <div class="dotted-scrollspy">
+            <ul class="nav smooth-scroll clearfix d-none d-sm-flex flex-column">
+                <li class="nav-item"><a class="nav-link" href="#one">Entrantes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#two">Pasta</a></li>
+                <li class="nav-item"><a class="nav-link" href="#three">Pizza</a></li>
+                <li class="nav-item"><a class="nav-link" href="#four">Postres</a></li>
+                <li class="nav-item"><a class="nav-link" href="#five">Vinos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#six">Bebidas</a></li>
             </ul>
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="fab fa-facebook light-green-text"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="fab fa-twitter light-green-text"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="fab fa-instagram light-green-text"></i>
-                    </a>
-                </li>
-            </ul>
         </div>
-    </div>
-</nav>
 
-<section id="one">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Entrantes</h1>
+
+        <footer class="page-footer footer-tiles center-on-small-only pt-4">
+
+
+            <div class="container mb-4">
+
+
+                <div class="row">
+
+
+                    <div class="col-lg-4 pt-1 pb-3 wow fadeIn" data-wow-delay="0.3s">
+
+                        <h5 class="title mb-1">
+                            <strong>ABOUT RESTAURANT</strong>
+                        </h5>
+
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum
+                            deleniti
+                            atque corrupti.</p>
+
+                        <p class="mb-1-half"> Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et
+                            quas
+                            molestias excepturi sint.</p>
+
+
+                        <div class="footer-socials">
+
+
+                            <a type="button" class="btn-floating green">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+
+                            <a type="button" class="btn-floating green">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+
+                            <a type="button" class="btn-floating green">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+
+                            <a type="button" class="btn-floating green">
+                                <i class="fab fa-google-plus"></i>
+                            </a>
+
+
+                        </div>
+                    </div>
+
+
+                    <hr class="w-100 clearfix d-md-none">
+
+
+                    <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+
+                        <h5 class="title">
+                            <strong>Search something</strong>
+                        </h5>
+
+                        <ul class="footer-search">
+                            <li>
+                                <form class="search-form" role="search">
+                                    <div class="form-group waves-light waves-effect waves-light">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+
+
+                        <p>
+                            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p>
+                            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+                    </div>
+
+
+                    <hr class="w-100 clearfix d-md-none">
+
+
+                    <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn text-center" data-wow-delay="0.3s">
+
+
+                        <h5 class="title mb-2">
+                            <strong>Opening hours</strong>
+                        </h5>
+
+
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Mon - Thu:</td>
+                                    <td>8am - 9pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Fri - Sat:</td>
+                                    <td>8am - 1am</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday:</td>
+                                    <td>9am - 10pm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+
+                </div>
+
+
             </div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-        </div>
-    </div>
-</section>
-<section id="two">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Pastas</h1>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-        </div>
-    </div>
-</section>
-<section id="three">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Pizzas</h1>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-        </div>
-    </div>
-</section>
-<section id="four">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Postres</h1>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-        </div>
-    </div>
-</section>
-<section id="five">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Vinos</h1>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2 my-2"><img class="d-block w-100"
-                                                                 src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                                 alt=""></div>
-        </div>
-    </div>
-</section>
-<section id="six">
-    <div class="container">
-        <div class="row">
-            <h1>Bebidas</h1>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
-                                                            src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                            alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
-                                                            src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                            alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
-                                                            src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                            alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
-                                                            src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                            alt=""></div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
-                                                            src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                            alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
-                                                            src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                            alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
-                                                            src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                            alt=""></div>
-            <div class="col-12 col-md-6 col-lg-3 px-2"><img class="d-block w-100"
-                                                            src="https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg"
-                                                            alt=""></div>
-        </div>
-    </div>
-</section>
-
-<!-- Scrollspy -->
-<div class="dotted-scrollspy">
-    <ul class="nav smooth-scroll clearfix d-none d-sm-flex flex-column">
-        <li class="nav-item"><a class="nav-link" href="#one">Entrantes</a></li>
-        <li class="nav-item"><a class="nav-link" href="#two">Pasta</a></li>
-        <li class="nav-item"><a class="nav-link" href="#three">Pizza</a></li>
-        <li class="nav-item"><a class="nav-link" href="#four">Postres</a></li>
-        <li class="nav-item"><a class="nav-link" href="#five">Vinos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#six">Bebidas</a></li>
-    </ul>
-</div>
 
 
-<footer class="page-footer footer-tiles center-on-small-only pt-4">
-
-
-    <div class="container mb-4">
-
-
-        <div class="row">
-
-
-            <div class="col-lg-4 pt-1 pb-3 wow fadeIn" data-wow-delay="0.3s">
-
-                <h5 class="title mb-1">
-                    <strong>ABOUT RESTAURANT</strong>
-                </h5>
-
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                    deleniti
-                    atque corrupti.</p>
-
-                <p class="mb-1-half"> Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
-                    molestias excepturi sint.</p>
-
-
-                <div class="footer-socials">
-
-
-                    <a type="button" class="btn-floating green">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating green">
-                        <i class="fab fa-dribbble"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating green">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-
-                    <a type="button" class="btn-floating green">
-                        <i class="fab fa-google-plus"></i>
-                    </a>
-
-
+            <div class="footer-copyright wow fadeIn" data-wow-delay="0.3s">
+                <div class="container-fluid">
+                    © 2017 Copyright:
+                    <a href="https://www.MDBootstrap.com" rel="nofollow"> MDBootstrap.com </a>
                 </div>
             </div>
 
 
-            <hr class="w-100 clearfix d-md-none">
+        </footer>
 
-
-            <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-
-                <h5 class="title">
-                    <strong>Search something</strong>
-                </h5>
-
-                <ul class="footer-search">
-                    <li>
-                        <form class="search-form" role="search">
-                            <div class="form-group waves-light waves-effect waves-light">
-                                <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                        </form>
-                    </li>
-                </ul>
-
-
-                <p>
-                    <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                <p>
-                    <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                <p>
-                    <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                <p>
-                    <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-
-            </div>
-
-
-            <hr class="w-100 clearfix d-md-none">
-
-
-            <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn text-center" data-wow-delay="0.3s">
-
-
-                <h5 class="title mb-2">
-                    <strong>Opening hours</strong>
-                </h5>
-
-
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <td>Mon - Thu:</td>
-                        <td>8am - 9pm</td>
-                    </tr>
-                    <tr>
-                        <td>Fri - Sat:</td>
-                        <td>8am - 1am</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday:</td>
-                        <td>9am - 10pm</td>
-                    </tr>
-                    </tbody>
-                </table>
-
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-
-    <div class="footer-copyright wow fadeIn" data-wow-delay="0.3s">
-        <div class="container-fluid">
-            © 2017 Copyright:
-            <a href="https://www.MDBootstrap.com" rel="nofollow"> MDBootstrap.com </a>
-        </div>
-    </div>
-
-
-</footer>
-
-<script src="http://code.jquery.com/jquery-3.3.1.min.js"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="https://mdbootstrap.com/previews/templates/landing-page/js/mdb.min.js"></script>
-<script src="js/custom.js"></script>
-<script>
-    $('body').scrollspy({
-        target: '.dotted-scrollspy'
-    });
-</script>
-</body>
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="https://mdbootstrap.com/previews/templates/landing-page/js/mdb.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            $('body').scrollspy({
+                target: '.dotted-scrollspy'
+            });
+        </script>
+    </body>
 </html>
