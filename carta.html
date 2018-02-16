@@ -442,32 +442,23 @@
 
         <!-- Scrollspy -->
         <div class="dotted-scrollspy">
-            <ul class="nav smooth-scroll clearfix d-none d-sm-flex flex-column">
-                <li class="nav-item"><a class="nav-link" href="#one">Entrantes</a></li>
-                <li class="nav-item"><a class="nav-link" href="#two">Pasta</a></li>
-                <li class="nav-item"><a class="nav-link" href="#three">Pizza</a></li>
-                <li class="nav-item"><a class="nav-link" href="#four">Postres</a></li>
-                <li class="nav-item"><a class="nav-link" href="#five">Vinos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#six">Bebidas</a></li>
+            <ul class="nav smooth-scroll clearfix d-none d-md-flex flex-column">
+                <li class="nav-item"><a class="nav-link" href="#one" data-toggle="tooltip" data-placement="left" title="Entrantes"><span></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#two" data-toggle="tooltip" data-placement="left" title="Pastas"><span></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#three" data-toggle="tooltip" data-placement="left" title="Pizzas"><span></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#four" data-toggle="tooltip" data-placement="left" title="Postres"><span></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#five" data-toggle="tooltip" data-placement="left" title="Vinos"><span></span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#six" data-toggle="tooltip" data-placement="left" title="Bebidas"><span></span></a></li>
             </ul>
         </div>
 
-
         <footer class="page-footer footer-tiles center-on-small-only pt-4">
-
-
             <div class="container mb-4">
-
-
                 <div class="row">
-
-
                     <div class="col-lg-4 pt-1 pb-3 wow fadeIn" data-wow-delay="0.3s">
-
                         <h5 class="title mb-1">
                             <strong>ABOUT RESTAURANT</strong>
                         </h5>
-
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                             voluptatum
                             deleniti
@@ -476,41 +467,26 @@
                         <p class="mb-1-half"> Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et
                             quas
                             molestias excepturi sint.</p>
-
-
                         <div class="footer-socials">
-
-
                             <a type="button" class="btn-floating green">
                                 <i class="fab fa-facebook"></i>
                             </a>
-
                             <a type="button" class="btn-floating green">
                                 <i class="fab fa-dribbble"></i>
                             </a>
-
                             <a type="button" class="btn-floating green">
                                 <i class="fab fa-twitter"></i>
                             </a>
-
                             <a type="button" class="btn-floating green">
                                 <i class="fab fa-google-plus"></i>
                             </a>
-
-
                         </div>
                     </div>
-
-
                     <hr class="w-100 clearfix d-md-none">
-
-
                     <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-
                         <h5 class="title">
                             <strong>Search something</strong>
                         </h5>
-
                         <ul class="footer-search">
                             <li>
                                 <form class="search-form" role="search">
@@ -520,8 +496,6 @@
                                 </form>
                             </li>
                         </ul>
-
-
                         <p>
                             <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
                         <p>
@@ -530,21 +504,12 @@
                             <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
                         <p>
                             <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-
                     </div>
-
-
                     <hr class="w-100 clearfix d-md-none">
-
-
                     <div class="col-lg-4 pt-1 pb-1 col-md-6 wow fadeIn text-center" data-wow-delay="0.3s">
-
-
                         <h5 class="title mb-2">
                             <strong>Opening hours</strong>
                         </h5>
-
-
                         <table class="table">
                             <tbody>
                                 <tr>
@@ -561,16 +526,9 @@
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
-
-
                 </div>
-
-
             </div>
-
-
             <div class="footer-copyright wow fadeIn" data-wow-delay="0.3s">
                 <div class="container-fluid">
                     © 2017 Copyright:
@@ -596,6 +554,9 @@
             $('body').scrollspy({
                 target: '.dotted-scrollspy'
             });
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            })
         </script>
     </body>
 </html>
