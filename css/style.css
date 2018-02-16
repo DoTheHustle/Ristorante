@@ -28,3 +28,30 @@
 .active{
     color: darkgreen;
 }
+
+.plato[class*="col-"] {
+    background-clip: padding-box;
+    border: 10px solid transparent;
+}
+
+@media (min-width: 544px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
