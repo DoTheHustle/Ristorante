@@ -25,7 +25,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.active{
+
+.active {
     color: darkgreen;
 }
 
@@ -43,10 +44,15 @@
     height: 100%;
 }
 
-@media (min-width: 544px) {
-    .card-columns {
-        column-count: 1;
-    }
+.card-columns {
+    column-count: 1;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+}
+.card-columns .card {
+    display: inline-block;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
